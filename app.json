@@ -7,26 +7,26 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.akanksha.crush"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/new.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.satyam_mj.justforyou"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/new.png"
     }
   }
 }
